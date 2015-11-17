@@ -33,6 +33,7 @@ tests = [
   [1.24, 5.67, 3.45, -1.24],
   shuffled(list(range(0, 1000))),
   list(range(0, 1000)),
+  list(reversed(range(0, 1000))),
   (3, 4, 1, 2),
   (i for i in range(10, 0, -1))
 ]
