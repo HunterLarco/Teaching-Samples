@@ -1,6 +1,7 @@
 from quicksort import quicksort
 from selectionsort import selectionsort
 from radixsort import radixsort
+from insertionsort import insertionsort
 import random
 
 
@@ -17,7 +18,8 @@ def inorder(arr):
 SORTERS = [
   quicksort,
   selectionsort,
-  radixsort
+  radixsort,
+  insertionsort
 ]
 
 
