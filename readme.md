@@ -17,9 +17,9 @@ Contributers&ensp;·&ensp;[Hunter Larco](http://hunterlarco.com)
 | [Heap Sort][]      | n logn    | n logn       | n logn     |
 | [Radix Sort][]     | nm        | nm           | nm         |
 
-[Selection Sort]: ./sorting/selectionsort.md
-[Insertion Sort]: ./sorting/insertionsort.md
-[Quick Sort]: ./sorting/quicksort.md
-[Merge Sort]: ./sorting/mergesort.md
-[Heap Sort]: ./sorting/heapsort.md
-[Radix Sort]: ./sorting/radixsort.md
+[Selection Sort]: ./sorting/selectionsort.py
+[Insertion Sort]: ./sorting/insertionsort.py
+[Quick Sort]: ./sorting/quicksort.py
+[Merge Sort]: ./sorting/mergesort.py
+[Heap Sort]: ./sorting/heapsort.py
+[Radix Sort]: ./sorting/radixsort.py
