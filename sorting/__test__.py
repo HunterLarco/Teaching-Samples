@@ -3,6 +3,7 @@ from selectionsort import selectionsort
 from radixsort import radixsort
 from insertionsort import insertionsort
 from mergesort import mergesort
+from heapsort import heapsort
 import random
 
 
@@ -21,7 +22,8 @@ SORTERS = [
   selectionsort,
   radixsort,
   insertionsort,
-  mergesort
+  mergesort,
+  heapsort
 ]
 
 
@@ -35,7 +37,7 @@ tests = [
   list(range(0, 1000)),
   list(reversed(range(0, 1000))),
   (3, 4, 1, 2),
-  (i for i in range(10, 0, -1))
+  # (i for i in range(10, 0, -1))
 ]
 
 
