@@ -1,5 +1,6 @@
 from quicksort import quicksort
 from selectionsort import selectionsort
+from radixsort import radixsort
 import random
 
 
@@ -15,7 +16,8 @@ def inorder(arr):
 
 SORTERS = [
   quicksort,
-  selectionsort
+  selectionsort,
+  radixsort
 ]
 
 
@@ -24,6 +26,7 @@ tests = [
   [1, 2, 3, 4],
   [4, 3, 2, 1],
   [4, 4, 2, 1],
+  [1.24, 5.67, 3.45, -1.24],
   shuffled(list(range(0, 100))),
   (3, 4, 1, 2),
   (i for i in range(10, 0, -1))
