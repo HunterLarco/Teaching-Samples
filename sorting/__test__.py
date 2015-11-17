@@ -30,14 +30,14 @@ tests = [
 
 if __name__ == '__main__':
   for sorter in SORTERS:
-    print('Testing Sorter')
+    print('SORTER: {}'.format(sorter.__name__))
     failures = 0
 
     for i, test in enumerate(tests):
       try:
-        result = SORTERS[0](test)
-        assert len(result) == len(test)
-        assert inorder(result)
+        result = sorter(test)
+        assert len(result) == len(test), 'length of result != length of input'
+        assert inorder(result), 'result not in sorted ascending order'
       except Exception as e:
         print('\t!!! FAILED: Test #{}'.format(i+1))
         print('\t!!! ERROR: {}'.format(e))
