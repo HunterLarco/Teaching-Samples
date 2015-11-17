@@ -2,6 +2,7 @@ from quicksort import quicksort
 from selectionsort import selectionsort
 from radixsort import radixsort
 from insertionsort import insertionsort
+from mergesort import mergesort
 import random
 
 
@@ -19,7 +20,8 @@ SORTERS = [
   quicksort,
   selectionsort,
   radixsort,
-  insertionsort
+  insertionsort,
+  mergesort
 ]
 
 
@@ -29,7 +31,8 @@ tests = [
   [4, 3, 2, 1],
   [4, 4, 2, 1],
   [1.24, 5.67, 3.45, -1.24],
-  shuffled(list(range(0, 100))),
+  shuffled(list(range(0, 1000))),
+  list(range(0, 1000)),
   (3, 4, 1, 2),
   (i for i in range(10, 0, -1))
 ]
